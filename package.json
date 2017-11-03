@@ -1,0 +1,27 @@
+{
+  "name": "@nathanhamilton/rabbitamqp-federation-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanhamilton/rabbitamqp-federation-tester.git"
+  },
+  "keywords": [
+    "rabbitamqp",
+    "federation",
+    "testing"
+  ],
+  "author": "esquireofthelord@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanhamilton/rabbitamqp-federation-tester/issues"
+  },
+  "homepage": "https://github.com/nathanhamilton/rabbitamqp-federation-tester#readme",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
+}
