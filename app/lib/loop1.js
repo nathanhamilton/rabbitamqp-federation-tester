@@ -89,4 +89,4 @@ class Loop {
     }, reconnectTimeout * 1000)
   }
 }
-export default new Loop(config.LOOP_USER, config.LOOP_PASS, config.LOOP_URL)
+export default new Loop(config.LOOP_USER_1, config.LOOP_PASS_1, config.LOOP_URL_1)

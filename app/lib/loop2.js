@@ -1,4 +1,4 @@
-import config from '../config'
+import config from '../config.js'
 import amqp from 'amqplib/callback_api'
 
 class Loop {
@@ -90,4 +90,4 @@ class Loop {
   }
 
 }
-export default new Loop(config.LOOP_USER, config.LOOP_PASS, config.LOOP_URL)
+export default new Loop(config.LOOP_USER_2, config.LOOP_PASS_2, config.LOOP_URL_2)
